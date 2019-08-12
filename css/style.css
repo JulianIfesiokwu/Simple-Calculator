@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    width: 300px;
+    margin: 0 auto;
+    color: #FFFFFF;
+    background-color: #000000;
+    border-radius: 5px;
+}
+
+header {
+    margin-top: 20px;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 50px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#results-display{
+    display: block;
+    margin: 0 auto;
+    height: 60px;
+    width: 95%; 
+    border-radius: 5px;
+    margin-top: 20px;
+    padding: 12px 17px;
+    box-sizing: border-box;
+    color: #000000;
+    background-color: #D3D3D3;
+    text-align: end;
+    font-size: 230%;  
+}
+
+#user-controls {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+#user-controls .second {
+    display: grid;
+    grid-template-rows: 2 1 1;
+    justify-content: space-evenly;
+}
+
+button {
+    border-radius: 50px;
+    border: none;
+    width: 60px;
+    height: 60px;
+    margin-bottom: 10px;
+    background-color: #808080;
+    color: #FFFFFF;
+    font-size: 150%;  
+}
+
+#user-controls .get-ready {
+    background-color: #FF8C00;
+}
+
+#user-controls .go {
+    background-color: #228B22;
+}
+
+#user-controls .on {
+    background-color: #FF0000;
+}
+
+#span-two {
+    grid-column: 1 / span 2;
+    width: 100%;
+}
+
+.user-controls .numbers {
+    background-color: #2F4F4F;
+}
+
+.user-controls .grey {
+    background-color: #2F4F4F;
+}
+
+.user-controls .dark {
+    color: #000000;
+}
+
