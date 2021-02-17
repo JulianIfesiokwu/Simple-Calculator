@@ -6,7 +6,7 @@
 }
 
 main {
-    width: 300px;
+    width: 400px;
     margin: 0 auto;
     color: #FFFFFF;
     background-color: #000000;
@@ -59,7 +59,7 @@ button {
     margin-bottom: 10px;
     background-color: #808080;
     color: #FFFFFF;
-    font-size: 150%;  
+    font-size: 150%;
 }
 
 #user-controls .get-ready {
@@ -91,3 +91,10 @@ button {
     color: #000000;
 }
 
+/* Media Query Large smartphone (vertical) */
+
+@media screen and (max-width: 600px) {
+    #cal-body {
+       main: 95%;
+    }
+}
